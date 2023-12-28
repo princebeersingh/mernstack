@@ -1,0 +1,23 @@
+{
+  "name": "nodeapi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "set NODE_ENV=PRODUCTION && node server.js ",
+    "dev": "set NODE_ENV=DEVELOPMENT && nodemon server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "cookie": "^0.6.0",
+    "cookie-parser": "^1.4.6",
+    "cookies": "^0.8.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.0.3"
+  }
+}
